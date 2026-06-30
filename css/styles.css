@@ -119,9 +119,7 @@ input[type="text"] {
   background: transparent;
   color: var(--cor-texto);
   border: 1px solid var(--cor-texto-secundario);
-  position: absolute;
-  right: 16px;
-  top: 24px;
+  
 }
 
 .botao-primario:hover, .botao-secundario:hover {
