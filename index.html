@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encontre o Diferente</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <h1>🔍 Encontre o Diferente</h1>
+
+  <div id="placar">
+    <span>Jogador: <strong id="nomeJogador">—</strong></span>
+    <span>Pontuação: <strong id="pontuacao">0</strong></span>
+    <span>Rodada: <strong id="rodada">0</strong></span>
+    <span>Tempo: <strong id="tempo">30</strong>s</span>
+  </div>
+
+  <div id="grid"></div>
+
+  <div id="tela-inicial">
+    <h2>🎉 Jogo para Festa!</h2>
+    <input type="text" id="inputNome" placeholder="Digite seu nome">
+    <button id="btnJogar">Jogar</button>
+  </div>
+
+  <div id="tela-fim" class="escondido">
+    <h2>Fim de jogo!</h2>
+    <p id="mensagemFim"></p>
+    <button id="btnReiniciar">Jogar Novamente</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
